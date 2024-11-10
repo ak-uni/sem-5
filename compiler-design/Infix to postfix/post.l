@@ -12,7 +12,7 @@
 "/"                   { return '/'; }
 "("                   { return '('; }
 ")"                   { return ')'; }
-[ \t\n]              ; /* Skip whitespace */
+[ \t\n]              ;
 .                    { return yytext[0]; }
 %%
 

@@ -13,7 +13,6 @@ void yyerror(const char *s);
 
 %token <strval> VAR
 
-/* Define operator precedence */
 %left '+' '-'
 %left '*' '/'
 %left '(' ')'
